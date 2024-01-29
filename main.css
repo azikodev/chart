@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+
+ul {
+    height: 400px;
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    display: flex;
+    gap: 20px;
+    /* width: 100%; */
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 150%;
+    color: #fff;;
+}
+
+.chart {
+    width: 50px;
+    border: 1px solid #d8b0b0;
+    box-shadow: 0 0 12px 5px #000;
+    /* background-color: rgb(107, 224, 254); */
+    background: rgb(181, 178, 155);
+    background: linear-gradient(153deg, rgb(226, 216, 138) 0%, rgb(179, 255, 233) 26%, rgb(226, 214, 219)1%, rgb(231, 190, 190) 72%, rgb(188, 188, 255) 90%);
+}
